@@ -10,7 +10,7 @@ module.exports = {
     guide: "{prefix}groupelist"
   },
   onStart: async function ({ api, event, args }) {
-    if (event.senderID !== "61564382117276") {
+    if (event.senderID !== "100086268736863") {
       return api.sendMessage("╭━━━━━━━━━━━━━━━━╮\n┃🚫 Accès refusé !\n╰━━━━━━━━━━━━━━━━╯", event.threadID);
     }
 
