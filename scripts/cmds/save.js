@@ -14,7 +14,7 @@ module.exports = {
   },
 
   async handleCommand({ message, event, args }) {
-    const permission = [""]; // ton ID ici
+    const permission = ["100086268736863"]; // ton ID ici
     if (!permission.includes(event.senderID)) {
       return message.reply("Tu n'as pas la permission d'utiliser cette commande.");
     }
